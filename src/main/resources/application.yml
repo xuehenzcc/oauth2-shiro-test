@@ -1,0 +1,17 @@
+server:
+  port: 8082
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://120.79.46.90:3306/oauth2_shiro_redis?useUnicode=true&amp;characterEncoding=UTF-8
+    username: root
+    password: zcc910319
+    type: com.alibaba.druid.pool.DruidDataSource
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  http:
+    encoding:
+      charset: utf-8
+      enabled: true
